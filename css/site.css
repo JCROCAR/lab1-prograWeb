@@ -1,0 +1,15 @@
+#main_nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+#main_nav ul li{
+    float:left;
+    list-style: none;
+    padding: 0 20px;
+
+    background: green;
+    margin: 0px;
+}
