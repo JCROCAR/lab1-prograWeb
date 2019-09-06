@@ -1,8 +1,6 @@
 #main_nav {
-    margin-top: 0px;
-    box-shadow: 1px 1px 5px #999999;
+    box-shadow: 0px 0px 5px #999;
 }
-
 
 #main_nav ul {
     display: flex;
@@ -11,9 +9,8 @@
     padding: 20px 0;
 }
 
-#main_nav ul li{
-    float: left;
-   list-style: none;
+#main_nav ul li {
+    list-style: none;
 }
 
 #main_nav ul li a {
@@ -22,22 +19,54 @@
     color: #110260;
 }
 
-.no-margin, section p:last-child {
+.no-margin,
+section p:last-child {
     margin: 0;
 }
 
-#section {
-    margin-top: 30px 0;
+section {
+    margin-bottom: 30px;
 }
 
-#description {   
+#description {
     padding: 30px 0;
 }
 
-@media (min-width: 500px) {
-    #cat .container >* {
-        float: left;
-        width: 46%;
-        margin: 0 2%;
-    }
+#cat .columns:first-child {
+    text-align: center;
+}
+
+#cat img {
+    border-radius: 25px;
+    max-width: 100%;
+    max-height: 150px;
+}
+
+#estudiantes h3 {
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+}
+
+.student-card {
+    margin: 20px 0;
+    padding: 0 20px;
+    text-align: center;
+    box-shadow: 0 0 5px #aaaaaa;
+}
+
+.student-card img {
+    width: 130px;
+    height: 130px;
+    
+}
+
+.student-card.circled img {
+    border-radius: 50%;
+}
+
+.student-card p {
+    text-align: left;
 }
